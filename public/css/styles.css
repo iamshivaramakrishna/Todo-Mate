@@ -1,0 +1,158 @@
+html {
+  background-color: #E4E9FD;
+  background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 1000px;
+  font-family: 'helvetica neue';
+  overflow:hidden;
+}
+
+h1 {
+  color: #fff;
+  padding: 10px;
+}
+
+.box {
+  max-width: 400px;
+  margin: 50px auto;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  padding: 0;
+}
+
+body > ul:nth-child(3) {
+padding-left: 0px;
+}
+
+/* route buttons */
+.btngrp{
+  max-width: 400px;
+  margin: 20px auto;
+  border-radius: 5px;
+  padding: 0;
+}
+.btngrp a{
+  margin-right:15%;
+  color: #a683e3;
+  font-family: 'Montserrat';
+  text-shadow: 3px 3px 2px #fff;
+  background-color:transparent;
+  text-decoration: none;
+  display: inline-block;
+}
+/*  */
+#heading {
+  background-color: #A683E3;
+  text-align: center;
+}
+
+li{
+  list-style-type: none;
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+
+.item {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #F1F1F1;
+}
+
+.item:last-child {
+  border-bottom: 0;
+}
+
+input[type=checkbox]:checked + li   {
+  text-decoration: line-through;
+    opacity: 0.5;
+}
+
+
+input[type="checkbox"] {
+  margin: 20px;
+}
+/*  checkboxanimation*/
+.checkbox{
+  width: 20px;
+  height: auto;
+}
+
+
+p {
+  margin: 0;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 200;
+  color: #00204a;
+}
+
+form {
+  text-align: center;
+  margin-left: 20px;
+}
+
+button {
+  width: 40px;
+  margin-left: 15px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #A683E3;
+  color: #fff;
+  font-size: 30px;
+  padding-bottom: 6px;
+  border-width: 0;
+  display: inline-block;
+}
+
+
+input[type="text"] {
+  text-align: center;
+  height: 60px;
+  top: 10px;
+  border: none;
+  background-color:#E4E9FD;
+  font-size: 20px;
+  font-weight: 200;
+  width: 70%;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: inset 0 -3px 0 0 #A683E3;
+}
+
+::placeholder {
+  color: grey;
+  opacity: 1;
+}
+
+footer {
+  min-height: 50px;
+  color: white;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+position:absolute;
+bottom :0;
+left: 0;
+width: 100%;
+}
+footer p a{
+color:aliceblue;
+}
+
+@media only screen and (max-width: 768px) {
+  /*  for mobiles*/
+  .html{max-height: 1000px;
+    }
+    body {
+margin-left: 20px;
+margin-right: 20px;
+}
+}
+
+
+/* @media only screen and (min-width: 600px) {} */
